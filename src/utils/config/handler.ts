@@ -60,7 +60,7 @@ export default class ConfigHandler {
 
   public static async ServerInstallLink(): Promise<string> {
     const res = await fetch(
-      "https://minecraft.wiki/w/Bedrock_Dedicated_Server",
+      "https://minecraft.wiki/w/Bedrock_Dedicated_Server_version_history",
       {
         headers: { "User-Agent": "mcbe-server-manager/1.0" },
       },
